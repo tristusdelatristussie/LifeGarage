@@ -68,6 +68,9 @@ public class Garage {
 Est ce possible a realiser ?
 
 
+    private ArrayList<Car> list = new ArrayList<>();
+
+
     public void addCar(String marque, String couleur, Float prix){
 
         this.list.add(Car(marque, couleur, prix));
